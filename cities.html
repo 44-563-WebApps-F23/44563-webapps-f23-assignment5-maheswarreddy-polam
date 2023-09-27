@@ -4,7 +4,7 @@
   <title>Bharat Cities</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
@@ -31,12 +31,92 @@
               <div class="col-md">Madurai</div>
               <div class="col-md">Mumbai</div>
           </div>
-      </div>
+      
       <br>
       <h4 style="background-color: Aqua; width: 270px;">Citi Names breaks first</h4>
       <p style="color: SaddleBrown;">Due to its design to stack on smaller displays
          (medium-sized screens and lower), the row of city 
          names breaks first. In contrast, the row of letters
           will continue to shrink horizontally until it overflows the container.</p>
+
+         <div class="row">
+           <div class="city-img">
+              <img class="img-fluid" src="./images/agra.jpeg" alt="agra" width="300" height="200"/>
+              <img class="img-fluid"  src="./images/lucknow.jpeg" alt="lucknow" width="300" height="200"/>
+              <img class="img-fluid"  src="./images/mumbai.jpeg" alt="mumbai" width="300" height="250"/>
+           </div>
+           <br/> <br/>
+        <div class="city-img-thumbnails">
+          <img class="img-thumbnail" id = "img-thumbnail" src="./images/agra.jpeg" alt="agra" width="350" height="250"/>
+          <img class="img-thumbnail" id = "img-thumbnail" src="./images/lucknow.jpeg" alt="lucknow" width="350" height="250"/>
+          <img class="img-thumbnail" id = "img-thumbnail" src="./images/mumbai.jpeg" alt="mumbai" width="350" height="290"/>
+       </div>
+    </div>
+    <br/>
+
+    <!--
+
+table row -->
+
+<h1 style="text-align: center;"> Table</h1>
+<div class="row">
+<table class="table table-hover">
+  <caption>List of Letters, Cities, Rivers, and Trees in a table</caption>
+  <thead class="table-dark">
+    <tr>
+      <th scope="col-md">##</th>
+      <th scope="col-md">Letter</th>
+      <th scope="col-md">City</th>
+      <th scope="col-md">River</th>
+      <th scope="col-md">Tree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>P</td>
+      <td>Paris</td>
+      <td>Potomac River</td>
+      <td>Pine Tree</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">2</th>
+      <td>O</td>
+      <td>Oslo</td>
+      <td>Ohio River</td>
+      <td>Oak Tree</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>L</td>
+      <td>London</td>
+      <td>Loire River</td>
+      <td>Linden Tree</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">4</th>
+      <td>A</td>
+      <td >Augsburg</td>
+      <td>Alabama River</td>
+      <td>Alexandra Palm</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>M</td>
+      <td>Madrid</td>
+      <td>Mississippi River</td>
+      <td>Maple Tree</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">6</th>
+      <td>M</td>
+      <td >Moscow</td>
+      <td>Mekong River</td>
+      <td>Magnolia Tree</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
 </body>
-</html>
+</html> 

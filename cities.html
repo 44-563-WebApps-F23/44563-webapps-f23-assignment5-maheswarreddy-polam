@@ -13,6 +13,28 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navigation</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" id="menu-item">
+                <a class="nav-link" href="./basic.html">Basic HTML</a>
+              </li>
+              <li class="nav-item" id="menu-item">
+                <a class="nav-link" href="./advanced.html">Advanced HTML</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+
         <h1>Visit cities with Maheswar Reddy Polam</h1>
         <div class="container">
           <div class="row" style="color:MediumSpringGreen;">
@@ -79,7 +101,7 @@ table row -->
       <td>Potomac River</td>
       <td>Pine Tree</td>
     </tr>
-    <tr class="table-info">
+    <tr class="table-success">
       <th scope="row">2</th>
       <td>O</td>
       <td>Oslo</td>
@@ -93,7 +115,7 @@ table row -->
       <td>Loire River</td>
       <td>Linden Tree</td>
     </tr>
-    <tr class="table-info">
+    <tr class="table-success">
       <th scope="row">4</th>
       <td>A</td>
       <td >Augsburg</td>
@@ -107,7 +129,7 @@ table row -->
       <td>Mississippi River</td>
       <td>Maple Tree</td>
     </tr>
-    <tr class="table-info">
+    <tr class="table-success">
       <th scope="row">6</th>
       <td>M</td>
       <td >Moscow</td>
@@ -116,11 +138,11 @@ table row -->
     </tr>
   </tbody>
 </table>
-</div>
+
 </div>
 
 <!-- Button group -->
-<div>
+
 <div class="row">
     <nav class="navbar navbar-light bg-light">
       <span class="navbar-brand mb-0 h2">Navigation Section</span>
@@ -138,11 +160,12 @@ table row -->
     <div class="btn-group" role="group" aria-label="Third group">
       <button type="button" class="btn btn-danger">M</button>
     </div>
-  </div>
-  </div>
+
 </div>
 
+
 <div class="row" id="dropdow">
+
     <div class="dropdown">
       <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
         Dropdown
@@ -152,5 +175,29 @@ table row -->
         <li><a class="dropdown-item" href="./advanced.html">Advanced HTML</a></li>
       </ul>
     </div>
+
+
+<!-- forms -->
+<div class="row">
+  <form>
+    <div class="mb-3">
+      <label for="Email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="city" class="form-label">City</label>
+      <input type="text" placeholder="Enter your city" class="form-control" >
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" >
+      <label class="form-check-label" for="Check">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html> 
